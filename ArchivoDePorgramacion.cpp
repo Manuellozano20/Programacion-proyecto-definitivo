@@ -4,7 +4,7 @@
 using namespace std;
 int main ()
 {
-    int a, sumafactura=0, b, c, f=4,  bi, devuelta, cambioc, cambiov, cambiod, cambioci, cambiodos ,cambiomil, sobrante1, sobrante2, sobrante3, sobrante4, sobrante5;
+    int a, sumafactura=0, b, c, e, f=4,  bi, devuelta, cambioc, cambiov, cambiod, cambioci, cambiodos ,cambiomil, sobrante1, sobrante2, sobrante3, sobrante4, sobrante5;
     int arreglo[f];
     cout<<"Bienvenido al centro Comercial LozCrux"<<endl;
     cout<<"A continuacion habran una serie de opciones por favor seleccione la opcion que requiera"<<endl;
@@ -24,7 +24,39 @@ int main ()
         break;
 
     case (2):
-        cout<<" "<<endl;
+        cout<<"A continuacion podra seleccionar el sector al que desea conocer la ruta"<<endl;
+        cout<<"1. Seccion de deportes"<<endl;
+        cout<<"2. Seccion de belleza"<<endl;
+        cout<<"3. Seccion de tecnologia"<<endl;
+        cout<<"4. Seccion de ropa"<<endl;
+        cout<<"5. Sotanos"<<endl;
+        cout<<"Tenga en cuenta que se le dreccionara desde la entrada principal"<<endl;
+        cout<<"Seleccione la opcion que desee"<<endl;
+        cin>>e;
+        switch (e)
+        {
+        case (1):
+            cout<<"Para ir a la seccion de deportes siga esta ruta"<<endl;
+            cout<<"*SE INSERTA MAPA*"<<endl;
+            break;
+        case (2):
+            cout<<"Para ir a la seccion de belleza siga esta ruta"<<endl;
+            cout<<"*SE INSERTA MAPA*"<<endl;           
+            break;
+        case (3):
+            cout<<"Para ir a la seccion de tecnologia siga esta ruta"<<endl;
+            cout<<"*SE INSERTA MAPA*"<<endl;           
+            break;
+        case (4):
+            cout<<"Para ir a la seccion de ropa siga esta ruta"<<endl;
+            cout<<"*SE INSERTA MAPA*"<<endl;           
+            break;
+        case (5):
+            cout<<"Para ir al sotano siga esta ruta"<<endl;
+            cout<<"*SE INSERTA MAPA*"<<endl;           
+            break;
+        }
+
         break;
   
     case (3):
